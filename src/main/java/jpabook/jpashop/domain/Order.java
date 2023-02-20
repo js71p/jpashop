@@ -7,7 +7,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "ORDERS") //예약어는 X
-public class Order {
+public class Order extends BaseEntity{
 
     @Id @GeneratedValue
     @Column(name = "ORDER_ID")
